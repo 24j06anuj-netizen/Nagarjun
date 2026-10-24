@@ -7,5 +7,5 @@ demo = gr.Interface(
     fn=greet,
     inputs=[gr.Textbox(label="Name:")],
     outputs=[gr.Textbox()]
-)
+
 
